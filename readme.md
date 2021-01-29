@@ -28,10 +28,10 @@ npm run build
 npm run dev
 ```
 
-## Макеты проектной работы в Figma:
+## Макет в Figma:
 
 * [Макет в Figma](https://www.figma.com/file/0IXd1IhqA6ht91fSnNrLRE/Test-task?node-id=0%3A1&viewport=710%2C2666%2C0.45750999450683594)
 
 ## ТЗ:
 
-* [ТЗ Google Документы](https://docs.google.com/document/d/1-0Sf18ItP_vwnrO8wbmzavksgn0DRE9_-UYthhkl38k/edit)
+* [ТЗ в Google Документы](https://docs.google.com/document/d/1-0Sf18ItP_vwnrO8wbmzavksgn0DRE9_-UYthhkl38k/edit)
