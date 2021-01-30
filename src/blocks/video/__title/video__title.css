@@ -1,0 +1,15 @@
+.video__title {
+  font-family: 'SF Pro Display', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 424px) {
+  .video__title {
+    font-size: 30px;
+  }
+}

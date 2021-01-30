@@ -1,5 +1,13 @@
 @import url(../vendor/normalize.css);
 
-h1 {
-  color: blueviolet;
-}
+@import url(../vendor/fonts/sf-pro/sf-pro.css);
+
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__container/video__container.css);
+@import url(../blocks/video/__title/video__title.css);
+@import url(../blocks/video/__view-button-group/videp__view-button-group.css);
+@import url(../blocks/video/__view-button/video__view-button.css);
+@import url(../blocks/video/__view-button/_prev/video__view-button_prev.css);
+@import url(../blocks/video/__view-button/_next/video__view-button_next.css);
+@import url(../blocks/video/__iframes-group/video__iframes-group.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
