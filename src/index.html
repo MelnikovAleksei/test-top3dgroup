@@ -2,13 +2,58 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Webpack</title>
 </head>
-<body>
-  <h1>Hello world</h1>
-  <img
-    alt="Пингвин Tux"
-    src="<%=require('./images/tux.svg')%>"
-  />
+<body
+  class="root"
+>
+  <main
+    class="main"
+  >
+    <section
+      class="video"
+    >
+      <div
+        class="video__container"
+      >
+        <h2
+          class="video__title"
+        >
+          Видео о нас
+        </h2>
+        <div
+          class="video__view-button-group"
+        >
+          <button
+            class="video__view-button video__view-button_prev"
+            aria-label="предыдущие видео"
+          ></button>
+          <button
+            class="video__view-button video__view-button_next"
+            aria-label="следующие видео"
+          ></button>
+        </div>
+      </div>
+      <div
+        class="video__iframes-group"
+      >
+        <iframe
+          class="video__iframe"
+          src="https://www.youtube.com/embed/Bg1zbYZWfkg"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+        <iframe
+          class="video__iframe"
+          src="https://www.youtube.com/embed/x3qwk25mAlA"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
