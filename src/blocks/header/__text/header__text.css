@@ -1,0 +1,10 @@
+.header__text {
+  font-family: 'SF Pro Display', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: #4D4D4D;
+  margin: 0;
+  padding: 10px 0;
+}

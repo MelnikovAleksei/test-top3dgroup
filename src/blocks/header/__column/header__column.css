@@ -1,0 +1,11 @@
+.header__column {
+
+}
+
+@media screen and (max-width: 374px) {
+  .header__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
