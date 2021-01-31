@@ -1,0 +1,14 @@
+.resources__list-item {
+  margin-right: 20px;
+}
+
+.resources__list-item:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .resources__list-item {
+    margin-right: 0;
+    padding: 5px 0;
+  }
+}
