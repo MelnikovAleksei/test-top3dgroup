@@ -1,0 +1,30 @@
+.resources__link {
+  font-family: 'SF Pro Display', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #222222;
+  font-size: 16px;
+  line-height: 19px;
+  color: #4D4D4D;
+  transition: color .2s ease;
+}
+
+.resources__link:hover {
+  color: rgba(210,0,28,1);
+}
+
+.resources__link:focus {
+  color: rgba(210,0,28,1);
+}
+
+@media screen and (max-width: 424px) {
+  .resources__link {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .resources__link {
+    font-size: 13px;
+  }
+}

@@ -2,6 +2,15 @@
 
 @import url(../vendor/fonts/sf-pro/sf-pro.css);
 
+@import url(../blocks/resources/resources.css);
+@import url(../blocks/resources/__container/resources__container.css);
+@import url(../blocks/resources/__title/resources__title.css);
+@import url(../blocks/resources/__title-line/resources__title-line.css);
+@import url(../blocks/resources/__list/resources__list.css);
+@import url(../blocks/resources/__list-item/resources__list-item.css);
+@import url(../blocks/resources/__link/resources__link.css);
+@import url(../blocks/resources/__link-icon/resources__link-icon.css);
+
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__container/video__container.css);
 @import url(../blocks/video/__title/video__title.css);
