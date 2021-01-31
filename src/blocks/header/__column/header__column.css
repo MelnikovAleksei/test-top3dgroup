@@ -1,7 +1,3 @@
-.header__column {
-
-}
-
 @media screen and (max-width: 374px) {
   .header__column {
     display: flex;
