@@ -12,29 +12,128 @@
     class="header"
   >
     <div
-      class="menu"
+      class="menu-top"
     >
-      <button
-        class="menu__button"
+      <nav
+        class="menu-top__nav"
       >
-        Санкт-Петербург
-        <img
-          class="menu__button-icon"
-          src="<%=require('./images/menu/menu-button-arrow.svg')%>"
-          alt="иконка стрелки"
+        <button
+          class="menu-top__button"
         >
-      </button>
-      <a
-        class="menu__link-tel"
-        href="tel:+7-812-613-58-38"
+          Санкт-Петербург
+          <img
+            class="menu-top__button-icon"
+            src="<%=require('./images/menu/menu-top-button-arrow.svg')%>"
+            alt="иконка стрелки"
+          >
+        </button>
+        <ul
+          class="menu-top__nav-list"
+        >
+          <li
+            class="menu-top__nav-list-item"
+          >
+            <a
+              class="menu-top__link"
+              href="tel:+7-812-613-58-38"
+            >
+              +7 (812) 613-58-38
+            </a>
+          </li>
+        </ul>
+        <p
+          class="menu-top__text"
+        >
+          Пн–пт 10:00–19:00, сб-вс 10:00–17:00
+        </p>
+      </nav>
+      <nav
+        class="menu-top__nav"
       >
-        +7 (812) 613-58-38
-      </a>
-      <p
-        class="menu__text"
+        <ul
+          class="menu-top__nav-list"
+        >
+          <li
+            class="menu-top__nav-list-item"
+          >
+            <a
+              class="menu-top__link"
+              href="mailto:partner@top3dgroup.com"
+            >
+              Напишите нам
+            </a>
+          </li>
+          <li
+            class="menu-top__nav-list-item"
+          >
+            <a
+              class="menu-top__link"
+              href="mailto:partner@top3dgroup.com"
+            >
+              Свяжитесь с директором
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <nav
+        class="menu-top__nav"
       >
-        Пн–пт 10:00–19:00, сб-вс 10:00–17:00
-      </p>
+        <ul
+          class="menu-top__nav-list"
+        >
+          <li
+            class="menu-top__nav-list-item"
+          >
+            <a
+              class="menu-top__link-icon"
+              href="https://web.telegram.org/"
+              target="_blank"
+              rel="noopener"
+              aria-label="написать в мессенджере телеграм"
+            >
+              <img
+                class="menu-top__link-icon-image"
+                src="<%=require('./images/menu/telegram-icon.svg')%>"
+                alt="иконка мессенджера телеграм"
+              >
+            </a>
+          </li>
+          <li
+            class="menu-top__nav-list-item"
+          >
+            <a
+              class="menu-top__link-icon"
+              href="https://www.skype.com/"
+              target="_blank"
+              rel="noopener"
+              aria-label="написать в мессенджере скайп"
+            >
+              <img
+                class="menu-top__link-icon-image"
+                src="<%=require('./images/menu/skype-icon.svg')%>"
+                alt="иконка мессенджера скайп"
+              >
+            </a>
+          </li>
+          <li
+            class="menu-top__nav-list-item"
+          >
+            <a
+              class="menu-top__link-icon"
+              href="tel:+7-812-613-58-38"
+              target="_blank"
+              rel="noopener"
+              aria-label="позвонить на телефон +7 812 613 58 38"
+            >
+              <img
+                class="menu-top__link-icon-image"
+                src="<%=require('./images/menu/phone-icon.svg')%>"
+                alt="иконка приложения телефон"
+              >
+            </a>
+          </li>
+        </ul>
+      </nav>
     </div>
     <div
       class="header__main"
