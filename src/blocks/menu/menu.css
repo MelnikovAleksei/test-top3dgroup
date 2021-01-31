@@ -1,0 +1,7 @@
+.menu {
+  max-width: 1448px;
+  box-sizing: border-box;
+  padding: 40px 120px;
+  margin: 0 auto;
+  box-shadow: 0px 4px 48px rgba(0, 0, 0, 0.16);
+}
