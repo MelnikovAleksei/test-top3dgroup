@@ -1,0 +1,14 @@
+.signin-link {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #222222;
+  font-size: 13px;
+  line-height: 1.38;
+  width: 73px;
+  min-height: 24px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 3px 8px;
+}

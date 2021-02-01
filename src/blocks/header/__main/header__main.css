@@ -1,0 +1,13 @@
+.header__main {
+  max-width: 1235px;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__main {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

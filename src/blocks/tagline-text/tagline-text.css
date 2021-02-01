@@ -1,0 +1,17 @@
+.tagline-text {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  color: #000000;
+  font-size: 13px;
+  line-height: 1.38;
+  width: 133px;
+  min-height: 36px;
+  padding: 0 16px;
+}
+
+@media screen and (max-width: 1023px) {
+  .tagline-text {
+    display: none;
+  }
+}

@@ -1,0 +1,19 @@
+.menu-products__list-link {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: #000000;
+  font-size: 13px;
+  line-height: 2; /* 1.38 */
+  text-decoration: none;
+  white-space: nowrap;
+  transition: opacity .3s ease;
+}
+
+.menu-products__list-link:hover {
+  opacity: .85;
+}
+
+.menu-products__list-link:focus {
+  opacity: .85;
+}

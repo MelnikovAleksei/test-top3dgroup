@@ -1,0 +1,12 @@
+.menu-container__row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 767px) {
+  .menu-container__row {
+    width: 100%;
+  }
+}

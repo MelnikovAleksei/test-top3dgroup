@@ -1,0 +1,32 @@
+.basket-link {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #FFFFFF;
+  font-size: 13px;
+  line-height: 1.38;
+  width: 160px;
+  min-height: 36px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #D2001C;
+  border-radius: 4px;
+  padding: 6px 16px;
+  transition: background .3s ease;
+}
+
+.basket-link:hover {
+  background: #a9071c;
+}
+
+.basket-link:focus {
+  background: #a9071c;
+}
+
+@media screen and (max-width: 1279px) {
+  .basket-link {
+    width: 125px;
+  }
+}

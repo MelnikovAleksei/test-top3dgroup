@@ -1,0 +1,10 @@
+.rating-image {
+  width: 105px;
+  height: 60px;
+}
+
+@media screen and (max-width: 1023px) {
+  .rating-image {
+    display: none;
+  }
+}
