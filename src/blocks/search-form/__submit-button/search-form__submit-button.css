@@ -1,0 +1,16 @@
+.search-form__submit-button {
+  position: absolute;
+  top: 3px;
+  right: 4px;
+  padding: 9px 15px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #D2001C;
+  font-size: 13px;
+  line-height: 1.38;
+  border: 2px solid #D2001C;
+  background: unset;
+  box-sizing: border-box;
+  border-radius: 4px;
+}

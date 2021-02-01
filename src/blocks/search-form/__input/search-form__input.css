@@ -1,0 +1,14 @@
+.search-form__input {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #9E9E9E;
+  font-size: 13px;
+  line-height: 1.38;
+  padding: 13px 18px;
+  width: 100%;
+  min-height: 44px;
+  border: 1px solid #BDBDBD;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
