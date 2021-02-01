@@ -6,6 +6,15 @@
   font-size: 13px;
   line-height: 1.38;
   text-decoration: none;
+  transition: opacity .3s ease;
+}
+
+.menu-top__phone-link:hover {
+  opacity: .85;
+}
+
+.menu-top__phone-link:focus {
+  opacity: .85;
 }
 
 @media screen and (max-width: 767px) {

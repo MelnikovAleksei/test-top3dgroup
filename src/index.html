@@ -139,35 +139,66 @@
         </nav>
       </div>
     </div>
-    <form
-      class="search-form"
+    <div
+      class="menu-container"
     >
-      <input
-        class="search-form__input"
-        type="text"
-        id="search-text"
-        placeholder="Введите запрос, например, Formlabs Form 2"
-        name="search"
-        required
-      >
-      <button
-        class="search-form__submit-button"
-        type="submit"
-      >
-        Найти
-      </button>
-    </form>
-    <a
-      class="signin-link"
-      href="#"
-    >
-      <img
-        class="signin-link__icon"
-        src="<%=require('./images/menu/signin-icon.svg')%>"
-        alt="иконка входа в личный кабинет"
-      >
-      Войти
-    </a>
+        <img
+          class="logo"
+          src="<%=require('./images/menu/top3dshop-logo.png')%>"
+          alt="изображение логотипа компании Top 3D Shop"
+        >
+        <p
+          class="tagline-text"
+        >
+          Ваш эксперт на рынке <span class="tagline-text__span" lang="en">3D</span>-техники
+        </p>
+        <img
+          class="rating-image"
+          src="<%=require('./images/menu/y-market-image.png')%>"
+          alt="изображение рейтинга в магазине яндекс маркет"
+        >
+        <form
+          class="search-form"
+        >
+          <input
+            class="search-form__input"
+            type="text"
+            id="search-text"
+            placeholder="Введите запрос, например, Formlabs Form 2"
+            name="search"
+            required
+          >
+          <button
+            class="search-form__submit-button"
+            type="submit"
+          >
+            Найти
+          </button>
+        </form>
+        <a
+          class="signin-link"
+          href="#"
+        >
+          <img
+            class="signin-link__icon"
+            src="<%=require('./images/menu/signin-icon.svg')%>"
+            alt="иконка входа в личный кабинет"
+          >
+          Войти
+        </a>
+        <a
+          class="basket-link"
+          href="#"
+        >
+          <img
+            class="basket-link__icon"
+            src="<%=require('./images/menu/basket-icon.svg')%>"
+            alt="иконка входа в корзину покупок"
+          >
+          Корзина пуста
+        </a>
+
+    </div>
     <div
       class="menu-info"
     >

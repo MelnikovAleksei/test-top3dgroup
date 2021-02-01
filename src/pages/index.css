@@ -23,12 +23,25 @@
 @import url(../blocks/menu-top/__link-icon-image/menu-top__link-icon-image.css);
 @import url(../blocks/menu-top/__text/menu-top__text.css);
 
+@import url(../blocks/menu-container/menu-container.css);
+@import url(../blocks/menu-container/__row/menu-container__row.css);
+
+@import url(../blocks/logo/logo.css);
+
+@import url(../blocks/tagline-text/tagline-text.css);
+@import url(../blocks/tagline-text/__span/tagline-text__span.css);
+
+@import url(../blocks/rating-image/rating-image.css);
+
 @import url(../blocks/search-form/search-form.css);
 @import url(../blocks/search-form/__input/search-form__input.css);
 @import url(../blocks/search-form/__submit-button/search-form__submit-button.css);
 
 @import url(../blocks/signin-link/signin-link.css);
 @import url(../blocks/signin-link/__icon/signin-link__icon.css);
+
+@import url(../blocks/basket-link/basket-link.css);
+@import url(../blocks/basket-link/__icon/basket-link__icon.css);
 
 @import url(../blocks/menu-info/menu-info.css);
 @import url(../blocks/menu-info/__nav/menu-info__nav.css);
