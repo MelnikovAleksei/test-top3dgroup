@@ -1,0 +1,10 @@
+.menu-top__nav-list-item-phone {
+  margin-right: 20px;
+}
+
+
+@media screen and (max-width: 1279px) {
+  .menu-top__nav-list-item-phone  {
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,13 @@
+.menu-top__nav-mail-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .menu-top__nav-mail-list {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}

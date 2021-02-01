@@ -5,3 +5,9 @@
 .menu-top__nav-list-item-icon:last-of-type {
   margin-right: 0;
 }
+
+@media screen and (max-width: 1279px) {
+  .menu-top__nav-list-item-icon {
+    margin-right: 10px;
+  }
+}
