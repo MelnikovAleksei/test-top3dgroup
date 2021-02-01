@@ -1,0 +1,7 @@
+.menu-products__list-item {
+  margin-right: 10px;
+}
+
+.menu-products__list-item:last-of-type {
+  margin-right: 0;
+}

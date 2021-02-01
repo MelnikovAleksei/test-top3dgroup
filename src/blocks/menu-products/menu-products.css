@@ -1,23 +1,19 @@
-.menu-top {
+.menu-products {
   max-width: 1448px;
   box-sizing: border-box;
   padding: 7px 120px;
   margin: 0 auto;
-  background: #FED600;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 @media screen and (max-width: 1279px) {
-  .menu-top {
+  .menu-products {
     padding-left: 30px;
     padding-right: 30px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .menu-top {
+  .menu-products {
     padding-left: 15px;
     padding-right: 15px;
   }

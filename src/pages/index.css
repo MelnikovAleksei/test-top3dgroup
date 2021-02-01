@@ -23,6 +23,13 @@
 @import url(../blocks/menu-top/__link-icon-image/menu-top__link-icon-image.css);
 @import url(../blocks/menu-top/__text/menu-top__text.css);
 
+@import url(../blocks/menu-products/menu-products.css);
+@import url(../blocks/menu-products/__nav/menu-products__nav.css);
+@import url(../blocks/menu-products/__list/menu-products__list.css);
+@import url(../blocks/menu-products/__list-item/menu-products__list-item.css);
+@import url(../blocks/menu-products/__list-link/menu-products__list-link.css);
+@import url(../blocks/menu-products/__link-icon/menu-products__link-icon.css);
+
 @import url(../blocks/header/__main/header__main.css);
 @import url(../blocks/header/__main-image/header__main-image.css);
 @import url(../blocks/header/__container/header__two-columns.css);

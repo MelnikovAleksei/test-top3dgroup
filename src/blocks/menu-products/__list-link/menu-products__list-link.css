@@ -1,0 +1,10 @@
+.menu-products__list-link {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #000000;
+  font-size: 13px;
+  line-height: 1.38;
+  text-decoration: none;
+  white-space: nowrap;
+}
