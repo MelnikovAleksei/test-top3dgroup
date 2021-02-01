@@ -1,4 +1,17 @@
 .menu-top__button {
-  width: 111px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #000000;
+  font-size: 13px;
+  line-height: 1.38;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 130px;
   height: 18px;
+  padding: 0;
+  background: unset;
+  border: unset;
+  margin-right: 20px;
 }

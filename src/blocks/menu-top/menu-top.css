@@ -1,9 +1,10 @@
 .menu-top {
   max-width: 1448px;
   box-sizing: border-box;
-  padding: 40px 120px;
+  padding: 7px 120px;
   margin: 0 auto;
   background: #FED600;
   display: flex;
-
+  align-items: center;
+  justify-content: space-between;
 }

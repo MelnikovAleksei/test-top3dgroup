@@ -1,0 +1,7 @@
+.menu-top__nav-list-item-icon {
+  margin-right: 19px;
+}
+
+.menu-top__nav-list-item-icon:last-of-type {
+  margin-right: 0;
+}
