@@ -1,0 +1,26 @@
+.menu-top__phone-link {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #000000;
+  font-size: 13px;
+  line-height: 1.38;
+  text-decoration: none;
+  transition: opacity .3s ease;
+}
+
+.menu-top__phone-link:hover {
+  opacity: .85;
+}
+
+.menu-top__phone-link:focus {
+  opacity: .85;
+}
+
+@media screen and (max-width: 767px) {
+  .menu-top__phone-link {
+    font-size: 12px;
+  }
+}
+
+

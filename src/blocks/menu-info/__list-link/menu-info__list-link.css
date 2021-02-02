@@ -1,0 +1,19 @@
+.menu-info__list-link {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
+  font-size: 13px;
+  line-height: 2; /* 1.38 */
+  text-decoration: none;
+  white-space: nowrap;
+  transition: opacity .3s ease;
+}
+
+.menu-info__list-link:hover {
+  opacity: .85;
+}
+
+.menu-info__list-link:focus {
+  opacity: .85;
+}

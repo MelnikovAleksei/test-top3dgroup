@@ -1,0 +1,43 @@
+.menu-top__button {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  color: #000000;
+  font-size: 13px;
+  line-height: 1.38;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 130px;
+  height: 18px;
+  padding: 0;
+  background: unset;
+  border: unset;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: opacity .3s ease;
+}
+
+.menu-top__button:hover {
+  opacity: .85;
+}
+
+.menu-top__button:focus {
+  opacity: .85;
+}
+
+@media screen and (max-width: 1279px) {
+  .menu-top__button {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .menu-top__button {
+    width: 115px;
+    margin-right: 0;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+}
+

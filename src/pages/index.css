@@ -1,5 +1,85 @@
 @import url(../vendor/normalize.css);
 
-h1 {
-  color: blueviolet;
-}
+@import url(../vendor/fonts/open-sans/open-sans.css);
+@import url(../vendor/fonts/sf-pro/sf-pro.css);
+
+@import url(../blocks/header/header.css);
+
+@import url(../blocks/menu-top/menu-top.css);
+@import url(../blocks/menu-top/__container/menu-top__container.css);
+@import url(../blocks/menu-top/__nav/menu-top__nav.css);
+@import url(../blocks/menu-top/__nav-mail/menu-top__nav-mail.css);
+@import url(../blocks/menu-top/__nav-icons/menu-top__nav-icons.css);
+@import url(../blocks/menu-top/__button/menu-top__button.css);
+@import url(../blocks/menu-top/__button-icon/menu-top__button-icon.css);
+@import url(../blocks/menu-top/__nav-list/menu-top__nav-list.css);
+@import url(../blocks/menu-top/__nav-mail-list/menu-top__nav-mail-list.css);
+@import url(../blocks/menu-top/__nav-mail-list-item/menu-top__nav-mail-list-item.css);
+@import url(../blocks/menu-top/__nav-list-item-phone/menu-top__nav-list-item-phone.css);
+@import url(../blocks/menu-top/__nav-list-item-icon/menu-top__nav-list-item-icon.css);
+@import url(../blocks/menu-top/__phone-link/menu-top__phone-link.css);
+@import url(../blocks/menu-top/__mail-link/menu-top__mail-link.css);
+@import url(../blocks/menu-top/__link-icon/menu-top__link-icon.css);
+@import url(../blocks/menu-top/__link-icon-image/menu-top__link-icon-image.css);
+@import url(../blocks/menu-top/__text/menu-top__text.css);
+
+@import url(../blocks/menu-container/menu-container.css);
+@import url(../blocks/menu-container/__row/menu-container__row.css);
+
+@import url(../blocks/logo/logo.css);
+
+@import url(../blocks/tagline-text/tagline-text.css);
+@import url(../blocks/tagline-text/__span/tagline-text__span.css);
+
+@import url(../blocks/rating-image/rating-image.css);
+
+@import url(../blocks/search-form/search-form.css);
+@import url(../blocks/search-form/__input/search-form__input.css);
+@import url(../blocks/search-form/__submit-button/search-form__submit-button.css);
+
+@import url(../blocks/signin-link/signin-link.css);
+@import url(../blocks/signin-link/__icon/signin-link__icon.css);
+
+@import url(../blocks/basket-link/basket-link.css);
+@import url(../blocks/basket-link/__icon/basket-link__icon.css);
+
+@import url(../blocks/menu-info/menu-info.css);
+@import url(../blocks/menu-info/__nav/menu-info__nav.css);
+@import url(../blocks/menu-info/__list/menu-info__list.css);
+@import url(../blocks/menu-info/__list-item/menu-info__list-item.css);
+@import url(../blocks/menu-info/__list-link/menu-info__list-link.css);
+
+@import url(../blocks/menu-products/menu-products.css);
+@import url(../blocks/menu-products/__nav/menu-products__nav.css);
+@import url(../blocks/menu-products/__list/menu-products__list.css);
+@import url(../blocks/menu-products/__list-item/menu-products__list-item.css);
+@import url(../blocks/menu-products/__list-link/menu-products__list-link.css);
+
+@import url(../blocks/header/__main/header__main.css);
+@import url(../blocks/header/__main-image/header__main-image.css);
+@import url(../blocks/header/__container/header__two-columns.css);
+@import url(../blocks/header/__column/header__column.css);
+@import url(../blocks/header/__column-main-text/header__column-main-text.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__text-notice/header__text-notice.css);
+@import url(../blocks/header/__text/header__text.css);
+
+@import url(../blocks/resources/resources.css);
+@import url(../blocks/resources/__container/resources__container.css);
+@import url(../blocks/resources/__title/resources__title.css);
+@import url(../blocks/resources/__title-line/resources__title-line.css);
+@import url(../blocks/resources/__list/resources__list.css);
+@import url(../blocks/resources/__list-item/resources__list-item.css);
+@import url(../blocks/resources/__link/resources__link.css);
+@import url(../blocks/resources/__link-icon/resources__link-icon.css);
+
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__container/video__container.css);
+@import url(../blocks/video/__title/video__title.css);
+@import url(../blocks/video/__view-button-group/videp__view-button-group.css);
+@import url(../blocks/video/__view-button/video__view-button.css);
+@import url(../blocks/video/__view-button/_prev/video__view-button_prev.css);
+@import url(../blocks/video/__view-button/_next/video__view-button_next.css);
+@import url(../blocks/video/__iframes-group/video__iframes-group.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
